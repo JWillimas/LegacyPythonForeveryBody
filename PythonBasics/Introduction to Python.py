@@ -51,3 +51,47 @@ print(f'\n')    # 010&011=010(binary)=2(dec)
 a=8 #1000
 a>>=2 #0010
 print(a)
+
+
+#Enclosing scope:
+def outer_func():
+    mag="Hellow there !"
+    res=""
+    def inner_func(): #Enclose Function
+        nonlocal res 
+        #nonlocal :Allow modification of 
+        # an enclosing variable
+        
+        res="how are you"
+        
+        print(mag)
+    
+    inner_func()
+    print(res)
+
+outer_func()
+
+print(f'\n') 
+
+#------------------>>>
+
+my_var_1 = 7
+
+def show_vars():
+    global my_var_2
+    my_var_2 = 10
+    print(my_var_1)
+    print(my_var_2)
+
+show_vars() # 7 10
+
+# my_var_2 is now a global variable and can be accessed anywhere in the program
+print(my_var_2)
+
+#------------------>>>
+#Short-circuiting operation:
+# python checks values from left to right 
+# and stops as soon as it determines the final result
+
+
+
