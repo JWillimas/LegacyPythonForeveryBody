@@ -94,4 +94,6 @@ print(my_var_2)
 # and stops as soon as it determines the final result
 
 
-
+text = "hello"
+index = text.find("h")
+print(index)  # Output: 1 (Position where "ell" starts)
