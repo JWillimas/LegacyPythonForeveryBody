@@ -69,11 +69,31 @@ def sum(a,b):
 
 
 
-pizza = dict([('name', 'Margherita Pizza'), ('price', 8.9), ('calories_per_slice', 250), ('toppings', ['mozzarella', 'basil'])])
-print(pizza)
-print(type(pizza))
-print(type(pizza.items()))
+# pizza = dict([('name', 'Margherita Pizza'), ('price', 8.9), ('calories_per_slice', 250), ('toppings', ['mozzarella', 'basil'])])
+# print(pizza)
+# print(type(pizza))
+# print(type(pizza.items()))
 
+# pizza=('name', 'Margherita Pizza')
+
+# print('name' in pizza )
 
 #8.What is a view object?
 #Which of the following built-in modules is used for generating random numbers?
+
+settings={
+     "theme": "light",
+     "the": "lig"
+}
+
+del settings["the"]
+print(settings)
+
+
+settings={
+     "theme": "light",
+     "the": "lig"
+}
+
+settings.remove("the")
+print(settings)
