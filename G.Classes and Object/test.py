@@ -21,4 +21,15 @@ Comp02=Comp("1","10000")
 print(Comp01.a)
 print(getattr(Comp01,"a"))
 
+name=""
+planet_type=""
+star=""
+print("" in (name,planet_type,star))
+
+try:
+    if name=="":
+        raise ValueError("12")
+
+except ValueError as e:
+    raise ValueError("2123132") from e
 
