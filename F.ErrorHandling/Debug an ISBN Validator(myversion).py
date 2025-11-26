@@ -4,6 +4,9 @@
 def validate_isbn(isbn, length):
 
     try:
+        print(isbn[2])
+        print(type(isbn))
+        print(len(isbn))
 
         if len(isbn) != length:
             print(f'ISBN-{length} code should be {length} digits long.')
