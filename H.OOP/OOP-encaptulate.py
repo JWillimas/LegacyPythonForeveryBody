@@ -97,7 +97,7 @@ class Person:
     def age(self):
         return self._age
 
-    @age.setter
+    @age.setter#'age' is the property name 
     def age(self, value):
         self.age = value   # ❌ WRONG — this calls the setter again!
 

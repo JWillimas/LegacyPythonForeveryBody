@@ -1,5 +1,13 @@
-class Cat:
-    def speak(self):
-        return "cat meow meow"
+class Point:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
 
-print(Cat().speak())
+    def __str__(self):
+        return f"Point(x={self.x}, y={self.y})"
+
+
+points=[Point(1,2),12]
+
+print(points)
+
