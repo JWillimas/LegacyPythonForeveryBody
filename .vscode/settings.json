@@ -1,4 +1,7 @@
 {
     "editor.semanticHighlighting.enabled": true,
-    "editor.semanticTokenColorCustomizations": {}
+    "editor.semanticTokenColorCustomizations": {},
+    "editor.fontLigatures": false,
+    "editor.fontVariations": false,
+    "terminal.integrated.drawBoldTextInBrightColors": true
 }
