@@ -3,5 +3,14 @@
     "editor.semanticTokenColorCustomizations": {},
     "editor.fontLigatures": false,
     "editor.fontVariations": false,
-    "terminal.integrated.drawBoldTextInBrightColors": true
+    "terminal.integrated.drawBoldTextInBrightColors": true,
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./K.Graphs and Trees",
+        "-p",
+        "test*.py"
+    ],
+    "python.testing.pytestEnabled": false,
+    "python.testing.unittestEnabled": true
 }
